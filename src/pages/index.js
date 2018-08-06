@@ -1,12 +1,7 @@
 import React from "react";
 import '../style.css'
-import { COLORS, BREAKPOINTS } from '../constants'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
-import Paragraph from '../components/Paragraph'
-import MaxWidthWrapper from '../components/MaxWidthWrapper'
-
-var background = {backgroundColor: '#000000'}
 
 export default () => (
   <Wrapper>
@@ -24,7 +19,7 @@ export default () => (
       ]}
     />
     <InnerWrapper>
-      <Title>Hi, I'm Matthew</Title>
+      <Title>Hi, I'm Matthew.</Title>
       <Paragraph>Hiiiiii</Paragraph>
     </InnerWrapper>
   </Wrapper>
@@ -35,14 +30,9 @@ const Wrapper = styled.div`
   background: black;
 `
 
-const InnerWrapper = styled(MaxWidthWrapper)`
-  position: relative;
-  padding: 40px 20px;
-  color: #fff;
-`
-
 const Title = styled.h1`
   margin-bottom: 48px;
+  font-family: 'Averta-Bold';
   font-size: 5rem;
   font-weight: 900;
   letter-spacing: -2.4px;
