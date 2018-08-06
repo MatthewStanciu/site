@@ -24,7 +24,7 @@ export default () => (
   </Wrapper>
 )
 
-const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 80})`
+const Hello = Heading.extend.attrs({f: 6, mx: 300, my: 150, fontSize: 80})`
   line-height: 1;
   color: white;
   font-family: 'Averta-Bold';
@@ -32,9 +32,7 @@ const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 80})`
 
 const Wrapper = Flex.extend.attrs({
   direction: ['column', 'row'],
-  px: 3,
-  mx:100,
-  my:150
+  px: 3
 })`
   text-align: center;
   ${mx[0]} {
