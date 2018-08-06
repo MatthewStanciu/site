@@ -24,6 +24,7 @@ export default () => (
       ]}
     />
     <InnerWrapper>
+      <Title>Hi, I'm Matthew</Title>
       <Paragraph>Hiiiiii</Paragraph>
     </InnerWrapper>
   </Wrapper>
@@ -37,7 +38,7 @@ const Wrapper = styled.div`
 const InnerWrapper = styled(MaxWidthWrapper)`
   position: relative;
   padding: 40px 20px;
-  color: '#fff';
+  color: #fff;
 `
 
 const Title = styled.h1`
@@ -45,6 +46,7 @@ const Title = styled.h1`
   font-size: 5rem;
   font-weight: 900;
   letter-spacing: -2.4px;
+  color: #fff;
   @media ${BREAKPOINTS.sm} {
     font-size: 3.5rem;
     letter-spacing: -1px;
