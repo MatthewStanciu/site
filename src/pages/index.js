@@ -1,39 +1,45 @@
 import React from "react";
 import '../style.css'
 import {mx} from '../reactstyle'
-import { Heading, Flex, Column, Box, Container } from 'rebass'
-import { Wrapper, Icon, Service } from '../components/components'
+import { Heading, Flex, Column, Box, Container, Link } from 'rebass'
+import { Wrapper, Icon, SocialMedia, Footer } from '../components/components'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 
 export default () => (
-  <Wrapper>
-    <Helmet
-        title='❤️ Matthew Stanciu'
-        meta={[
-        {
-          name: 'description',
-          content: 'Development portfolio',
-        },
-        {
-          name: 'keywords',
-          content: 'reactjs, javascript, front-end, web development',
-        },
-      ]}
-    />
-    <Intro>
-      <Container>
-        <Hello>Hi, I'm Matthew.</Hello>
-      </Container>
-      <Container>
-        <Flex>
-          <Service href="https://github.com/TechBug2012" icon="github" />
-          <Service href="https://twitter.com/MatthewStanciu" icon="twitter" />
-          <Service href="https://instagram.com/matthewstanciu" icon="instagram" />
-        </Flex>
-      </Container>
-    </Intro>
-  </Wrapper>
+  <React.Fragment>
+    <Wrapper>
+      <Helmet
+          title='❤️ Matthew Stanciu'
+          meta={[
+          {
+            name: 'description',
+            content: 'Development portfolio',
+          },
+          {
+            name: 'keywords',
+            content: 'reactjs, javascript, front-end, web development',
+          },
+        ]}
+      />
+      <Intro>
+        <Container>
+          <Hello>Hi, I'm Matthew.</Hello>
+        </Container>
+        <Container>
+          <Flex>
+            <SocialMedia href="https://github.com/TechBug2012" icon="github" />
+            <SocialMedia href="https://twitter.com/MatthewStanciu" icon="twitter" />
+            <SocialMedia href="https://instagram.com/matthewstanciu" icon="instagram" />
+          </Flex>
+        </Container>
+      </Intro>
+    </Wrapper>
+    <Container>
+      <Footer>This site is a WIP!</Footer>
+      <Footer>Check out <Link href="https://hackclub.com" color="#E82C3F">Hack Club</Link> while you're waiting for me to finish :)</Footer>
+    </Container>
+  </React.Fragment>
 )
 
 const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70})`

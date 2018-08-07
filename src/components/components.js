@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Flex, Link, Image } from 'rebass'
+import { Heading, Flex, Link, Image, Text } from 'rebass'
 import {mx} from '../reactstyle'
 import { replace } from 'lodash';
 
@@ -27,8 +27,14 @@ export const Icon = ({
   />
 )
 
-export const Service = ({ href, icon, ...props }) => (
-  <Link target="_blank" href={href} mx={2} {...props}>
+export const SocialMedia = ({ href, icon, ...props }) => (
+  <Link target="_blank" href={href} mx={3} {...props}>
     <Icon name={icon} fill={'#fff'} />
   </Link>
 )
+
+export const Footer = Text.extend.attrs({py: 3, textAlign: 'center'})`
+  font-family: 'Averta';
+  color: white;
+  line-height: 0.1;
+`
