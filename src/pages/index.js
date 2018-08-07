@@ -29,7 +29,7 @@ export default () => (
         <Flex>
           <Service href="https://github.com/TechBug2012" icon="github" />
           <Service href="https://twitter.com/MatthewStanciu" icon="twitter" />
-          <Service href="https://instasgram.com/matthewstanciu" icon="instagram" />
+          <Service href="https://instagram.com/matthewstanciu" icon="instagram" />
         </Flex>
       </Container>
     </Intro>
