@@ -21,8 +21,8 @@ export const Icon = ({
 }) => (
   <Image
     alt={`${name} icon`}
-    src={`https://icon.now.sh/${name}/${32}/${replace(fill, '#', '')}`}
-    style={{ width: 32, height: 32 }}
+    src={`https://icon.now.sh/${name}/${42}/${replace(fill, '#', '')}`}
+    style={{ width: 42, height: 42 }}
     {...props}
   />
 )

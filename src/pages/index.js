@@ -26,7 +26,7 @@ export default () => (
         <Hello>Hi, I'm Matthew.</Hello>
       </Container>
       <Container>
-        <Flex align="center" justify={['center', 'flex-start']}>
+        <Flex>
           <Service href="https://github.com/TechBug2012" icon="github" />
           <Service href="https://twitter.com/MatthewStanciu" icon="twitter" />
           <Service href="https://instasgram.com/matthewstanciu" icon="instagram" />
