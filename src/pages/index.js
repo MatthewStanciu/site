@@ -34,7 +34,7 @@ export default () => (
       </Container>
     </Intro>
   </Wrapper>
-)
+)//'
 
 const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70})`
   line-height: 1.5;
