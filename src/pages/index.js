@@ -23,17 +23,13 @@ export default () => (
         ]}
       />
       <Intro>
-        <Container>
           <Hello>Hi, I'm Matthew.</Hello>
-        </Container>
-        <Container>
           <Flex>
             <SocialMedia href="https://github.com/TechBug2012" icon="github" />
             <SocialMedia href="https://twitter.com/MatthewStanciu" icon="twitter" />
             <SocialMedia href="https://instagram.com/matthewstanciu" icon="instagram" />
             <SocialMedia href="https://medium.com/@MatthewStanciu" icon="medium" />
           </Flex>
-        </Container>
       </Intro>
     </Wrapper>
     <Footer>This site is a WIP!</Footer>

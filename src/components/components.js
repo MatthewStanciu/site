@@ -33,7 +33,7 @@ export const SocialMedia = ({ href, icon, ...props }) => (
   </Link>
 )
 
-export const Footer = Text.extend.attrs({py: 3, textAlign: 'center'})`
+export const Footer = Text.extend.attrs({py: 1, textAlign: 'center'})`
   font-family: 'Averta';
   color: white;
   line-height: 1;
