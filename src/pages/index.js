@@ -1,7 +1,7 @@
 import React from "react";
 import '../style.css'
 import {mx} from '../reactstyle'
-import { Heading, Flex, Column, Box } from 'rebass'
+import { Heading, Flex, Column, Box, Container } from 'rebass'
 import { Wrapper, Icon, Service } from '../components/components'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
@@ -22,12 +22,16 @@ export default () => (
       ]}
     />
     <Intro>
-      <Hello>Hi, I'm Matthew.</Hello>
-      <Flex align="center" justify={['center', 'flex-start']}>
-        <Service href="https://github.com/TechBug2012" icon="github" />
-        <Service href="https://twitter.com/MatthewStanciu" icon="twitter" />
-        <Service href="https://instasgram.com/matthewstanciu" icon="instagram" />
-      </Flex>
+      <Container>
+        <Hello>Hi, I'm Matthew.</Hello>
+      </Container>
+      <Container>
+        <Flex align="center" justify={['center', 'flex-start']}>
+          <Service href="https://github.com/TechBug2012" icon="github" />
+          <Service href="https://twitter.com/MatthewStanciu" icon="twitter" />
+          <Service href="https://instasgram.com/matthewstanciu" icon="instagram" />
+        </Flex>
+      </Container>
     </Intro>
   </Wrapper>
 )
