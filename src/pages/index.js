@@ -22,7 +22,7 @@ export default () => (
           },
         ]}
       />
-      <Intro>
+      <HeaderBlock>
           <Hello>Hi, I'm Matthew.</Hello>
           <Flex>
             <SocialMedia href="https://github.com/TechBug2012" icon="github" />
@@ -30,10 +30,10 @@ export default () => (
             <SocialMedia href="https://instagram.com/matthewstanciu" icon="instagram" />
             <SocialMedia href="https://medium.com/@MatthewStanciu" icon="medium" />
           </Flex>
-      </Intro>
+      </HeaderBlock>
     </Wrapper>
     <Footer>This site is a WIP!</Footer>
-    <Footer>Check out <Link href="https://hackclub.com" color="#E82C3F">Hack Club</Link> while you're waiting for me to finish :)</Footer>
+    <Footer>Check out <Link target="_blank" href="https://hackclub.com" color="#E82C3F">Hack Club</Link> while you're waiting for me to finish :)</Footer>
   </React.Fragment>
 )
 
@@ -43,7 +43,7 @@ const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70})`
   font-family: 'Averta-Bold';
 `
 
-const Intro = Column.extend.attrs({ py: 2, pl: [null, 5] })`
+const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
   ${mx[0]} {
     display: flex;
     flex-direction: column;
