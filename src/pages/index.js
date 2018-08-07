@@ -1,7 +1,7 @@
 import React from "react";
 import '../style.css'
 import {mx} from '../reactstyle'
-import { Heading, Flex, Column } from 'rebass'
+import { Heading, Flex, Column, Box } from 'rebass'
 import { Wrapper, Icon, Service } from '../components/components'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
@@ -21,8 +21,8 @@ export default () => (
         },
       ]}
     />
-    <Hello>Hi, I'm Matthew.</Hello>
     <Intro>
+      <Hello>Hi, I'm Matthew.</Hello>
       <Flex align="center" justify={['center', 'flex-start']}>
         <Service href="https://github.com/TechBug2012" icon="github" />
         <Service href="https://twitter.com/MatthewStanciu" icon="twitter" />
@@ -32,8 +32,8 @@ export default () => (
   </Wrapper>
 )
 
-const Hello = Heading.extend.attrs({f: 6, mx: 300, my: 150, fontSize: 80})`
-  line-height: 1;
+const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 80})`
+  line-height: 1.5;
   color: white;
   font-family: 'Averta-Bold';
 `
