@@ -36,5 +36,5 @@ export const SocialMedia = ({ href, icon, ...props }) => (
 export const Footer = Text.extend.attrs({py: 3, textAlign: 'center'})`
   font-family: 'Averta';
   color: white;
-  line-height: 0.1;
+  line-height: 1;
 `
