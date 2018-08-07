@@ -9,7 +9,7 @@ import Helmet from 'react-helmet'
 export default () => (
   <Wrapper>
     <Helmet
-        title='Matthew :)'
+        title='❤️ Matthew Stanciu'
         meta={[
         {
           name: 'description',
