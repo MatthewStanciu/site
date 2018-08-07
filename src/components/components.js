@@ -16,14 +16,13 @@ export const Wrapper = Flex.extend.attrs({
 
 export const Icon = ({
   name = 'x',
-  fill = colors.white,
-  size = 32,
+  fill = '#fff',
   ...props
 }) => (
   <Image
     alt={`${name} icon`}
-    src={`https://icon.now.sh/${name}/${size}/${replace(fill, '#', '')}`}
-    style={{ width: size, height: size }}
+    src={`https://icon.now.sh/${name}/${32}/${replace(fill, '#', '')}`}
+    style={{ width: 32, height: 32 }}
     {...props}
   />
 )
