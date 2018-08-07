@@ -35,10 +35,8 @@ export default () => (
         </Container>
       </Intro>
     </Wrapper>
-    <Container>
-      <Footer>This site is a WIP!</Footer>
-      <Footer>Check out <Link href="https://hackclub.com" color="#E82C3F">Hack Club</Link> while you're waiting for me to finish :)</Footer>
-    </Container>
+    <Footer>This site is a WIP!</Footer>
+    <Footer>Check out <Link href="https://hackclub.com" color="#E82C3F">Hack Club</Link> while you're waiting for me to finish :)</Footer>
   </React.Fragment>
 )
 
