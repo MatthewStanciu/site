@@ -31,8 +31,8 @@ export const NotNowIcon = ({
   fill = '#fff'
 }) => (
   <Image
-    src={`https://theopenmic.co/wp-content/uploads/2015/10/medium-logo-white.png`}
-    style={{width: 51.4, height: 42}}
+    src={`https://cdn.glitch.com/698488f3-b848-4b11-be98-9b7babb373a2%2FMedium.png?1533752553887`}
+    style={{width: 42, height: 42}}
   />
 )
 
