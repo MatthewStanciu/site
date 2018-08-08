@@ -26,10 +26,24 @@ export const Icon = ({
     {...props}
   />
 )
+export const NotNowIcon = ({
+  name = 'x',
+  fill = '#fff'
+}) => (
+  <Image
+    src={`https://theopenmic.co/wp-content/uploads/2015/10/medium-logo-white.png`}
+    style={{width: 51.4, height: 42}}
+  />
+)
 
 export const SocialMedia = ({ href, icon, ...props }) => (
   <Link target="_blank" href={href} mx={3} {...props}>
     <Icon name={icon} fill={'#fff'} />
+  </Link>
+)
+export const Medium = ({href, ...props}) => (
+  <Link target="_blank" href={href} mx={3} {...props}>
+    <NotNowIcon fill={'#fff'} />
   </Link>
 )
 

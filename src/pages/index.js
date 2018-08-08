@@ -2,7 +2,7 @@ import React from "react";
 import '../style.css'
 import {mx} from '../reactstyle'
 import { Heading, Flex, Column, Box, Container, Link } from 'rebass'
-import { Wrapper, Icon, SocialMedia, Footer } from '../components/components'
+import { Wrapper, Icon, Medium, SocialMedia, Footer } from '../components/components'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 
@@ -26,9 +26,9 @@ export default () => (
           <Hello>Hi, I'm Matthew.</Hello>
           <Flex>
             <SocialMedia href="https://github.com/TechBug2012" icon="github" />
+            <Medium href="https://medium.com/@MatthewStanciu"/>
             <SocialMedia href="https://twitter.com/MatthewStanciu" icon="twitter" />
             <SocialMedia href="https://instagram.com/matthewstanciu" icon="instagram" />
-            <SocialMedia href="https://medium.com/@MatthewStanciu" icon="medium" />
           </Flex>
       </HeaderBlock>
     </Wrapper>
