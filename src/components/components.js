@@ -4,7 +4,7 @@ import {mx} from '../reactstyle'
 import { replace } from 'lodash';
 
 export const Wrapper = Flex.extend.attrs({
-  direction: ['column', 'row'],
+  flexDirection: ['column', 'row'],
   px: 3
 })`
   text-align: center;
