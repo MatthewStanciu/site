@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Flex, Link, Image, Text } from 'rebass'
+import { Heading, Flex, Box, Link, Image, Text } from 'rebass'
 import {mx} from '../reactstyle'
 import { replace } from 'lodash';
 
@@ -41,11 +41,23 @@ export const SocialMedia = ({ href, icon, ...props }) => (
     <Icon name={icon} fill={'#fff'} />
   </Link>
 )
-export const Medium = ({href, ...props}) => (
+export const Medium = ({ href, ...props }) => (
   <Link target="_blank" href={href} mx={3} {...props}>
     <NotNowIcon fill={'#fff'} />
   </Link>
 )
+
+export const Project = ({href, ...props}) => (
+    <Link target="_blank" href={href} {...props}>
+      <StyledBox width={300} p={3} color='white' bg='black' {...props}></StyledBox>
+    </Link>
+)
+export const StyledBox = Box.extend.attrs({})`
+  padding: 10% 0 10% 0;
+
+  border-top:2px solid white;
+
+`
 
 export const Footer = Text.extend.attrs({py: 1, textAlign: 'center'})`
   font-family: 'Averta';

@@ -2,7 +2,7 @@ import React from "react";
 import '../style.css'
 import {mx} from '../reactstyle'
 import { Heading, Flex, Column, Box, Container, Link } from 'rebass'
-import { Wrapper, Icon, Medium, SocialMedia, Footer } from '../components/components'
+import { Wrapper, Icon, Medium, SocialMedia, Project, Footer } from '../components/components'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 
@@ -31,6 +31,14 @@ export default () => (
             <SocialMedia href="https://instagram.com/matthewstanciu" icon="instagram" />
           </Flex>
       </HeaderBlock>
+      <HeaderBlock>
+        <Flex flexDirection='column'>
+          <Subhead>My Projects</Subhead>
+          <Project href="https://google.com">aaa</Project>
+          <Project href="https://paypal.com">aaaaaaaaaaaaaaaaaa</Project>
+        </Flex>
+      </HeaderBlock>
+
     </Wrapper>
     <Footer>This site is a WIP!</Footer>
     <Footer>Check out <Link target="_blank" href="https://hackclub.com" color="#E82C3F">Hack Club</Link> while you're waiting for me to finish :)</Footer>
@@ -41,6 +49,10 @@ const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70})`
   line-height: 1.5;
   color: white;
   font-family: 'Averta-Bold';
+`
+const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30})`
+  line-height: 2;
+  color: white;
 `
 
 const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
