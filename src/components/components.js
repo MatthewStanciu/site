@@ -47,16 +47,43 @@ export const Medium = ({ href, ...props }) => (
   </Link>
 )
 
-export const Project = ({href, ...props}) => (
+export const Project = ({title, desc, href, ...props}) => (
     <Link target="_blank" href={href} {...props}>
-      <StyledBox width={300} p={3} color='white' bg='black' {...props}></StyledBox>
+      <StyledBox width={350} p={3} color='white' bg='black' {...props}>
+        <ProjectTitle>{title}</ProjectTitle>
+        <ProjectDesc>{desc}</ProjectDesc>
+      </StyledBox>
     </Link>
 )
+export const ProjectFinish = ({title, desc, href, ...props}) => (
+  <Link target="_blank" href={href} {...props}>
+    <StyledBoxFinish width={350} p={3} color='white' bg='black' {...props}>
+      <ProjectTitle>{title}</ProjectTitle>
+      <ProjectDesc>{desc}</ProjectDesc>
+    </StyledBoxFinish>
+  </Link>
+)
+
+export const ProjectTitle = Text.extend.attrs({fontSize: 25})`
+  font-family: 'Averta-Bold';
+  color: white;
+  line-height: 1.2;
+`
+export const ProjectDesc = Text.extend.attrs({})`
+  font-family: 'Averta';
+  color: #b2b2b2;
+  line-height: 1;
+`
+
 export const StyledBox = Box.extend.attrs({})`
   padding: 10% 0 10% 0;
-
   border-top:2px solid white;
 
+`
+export const StyledBoxFinish = Box.extend.attrs({})`
+  padding: 10% 0 10% 0;
+  border-top:2px solid white;
+  border-bottom: 2px solid white;
 `
 
 export const Footer = Text.extend.attrs({py: 1, textAlign: 'center'})`

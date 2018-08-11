@@ -2,7 +2,8 @@ import React from "react";
 import '../style.css'
 import {mx} from '../reactstyle'
 import { Heading, Flex, Column, Box, Container, Link } from 'rebass'
-import { Wrapper, Icon, Medium, SocialMedia, Project, Footer } from '../components/components'
+import { Wrapper, Icon, Medium, SocialMedia,
+   Project, ProjectTitle, ProjectDesc, ProjectFinish, Footer } from '../components/components'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 
@@ -33,9 +34,11 @@ export default () => (
       </HeaderBlock>
       <HeaderBlock>
         <Flex flexDirection='column'>
-          <Subhead>My Projects</Subhead>
-          <Project href="https://google.com">aaa</Project>
-          <Project href="https://paypal.com">aaaaaaaaaaaaaaaaaa</Project>
+          <Subhead>My Recent Projects</Subhead>
+          <Project href="https://anonbotwl.glitch.me" title="Anonbot WL" desc="An Instagram bot for students at my school to submit confessions and announce anonymously"></Project>
+          <Project href="http://thewritersblock.tech" title="The Writer's Block" desc="A decentralized writing platform that allows users to easily reward their favorite authors with Ethereum. Made at Hack Chicago 2018"></Project>
+          <ProjectFinish href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="Pretty title and block quote generator to give a nice touch to Medium articles"></ProjectFinish>
+
         </Flex>
       </HeaderBlock>
 
