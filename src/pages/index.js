@@ -48,12 +48,12 @@ export default () => (
   </React.Fragment>
 )
 
-const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70})`
+const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70, textAlign: "left"})`
   line-height: 1.5;
   color: white;
   font-family: 'Averta-Bold';
 `
-const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30})`
+const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30, textAlign: "left"})`
   line-height: 2;
   color: white;
   font-family: 'Averta-Bold';
