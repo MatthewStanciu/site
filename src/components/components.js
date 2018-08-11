@@ -48,7 +48,7 @@ export const Medium = ({ href, ...props }) => (
 )
 
 export const Project = ({title, desc, href, ...props}) => (
-    <Link target="_blank" href={href} {...props}>
+    <Link target="_blank" href={href} color="black" {...props}>
       <StyledBox width={350} p={3} color='white' bg='black' {...props}>
         <ProjectTitle>{title}</ProjectTitle>
         <ProjectDesc>{desc}</ProjectDesc>
@@ -56,7 +56,7 @@ export const Project = ({title, desc, href, ...props}) => (
     </Link>
 )
 export const ProjectFinish = ({title, desc, href, ...props}) => (
-  <Link target="_blank" href={href} {...props}>
+  <Link target="_blank" color="black" href={href} {...props}>
     <StyledBoxFinish width={350} p={3} color='white' bg='black' {...props}>
       <ProjectTitle>{title}</ProjectTitle>
       <ProjectDesc>{desc}</ProjectDesc>
