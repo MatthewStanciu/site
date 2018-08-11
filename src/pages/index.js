@@ -56,6 +56,7 @@ const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70})`
 const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30})`
   line-height: 2;
   color: white;
+  font-family: 'Averta-Bold';
 `
 
 const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
