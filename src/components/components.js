@@ -47,6 +47,12 @@ export const Medium = ({ href, ...props }) => (
   </Link>
 )
 
+export const Paragraph = ({text, color, ...props}) => (
+  <Box width={350} color="black" {...props}>
+    <Text color={color} textAlign="left">{text}</Text>
+  </Box>
+)
+
 export const Project = ({title, desc, href, ...props}) => (
     <Link target="_blank" href={href} color="black" {...props}>
       <StyledBox width={350} p={3} color='white' bg='black' {...props}>

@@ -1,8 +1,8 @@
 import React from "react";
 import '../style.css'
 import {mx} from '../reactstyle'
-import { Heading, Flex, Column, Box, Container, Link } from 'rebass'
-import { Wrapper, Icon, Medium, SocialMedia,
+import { Heading, Flex, Column, Box, Container, Link, Text } from 'rebass'
+import { Wrapper, Icon, Medium, SocialMedia, Paragraph,
    Project, ProjectTitle, ProjectDesc, ProjectFinish, Footer } from '../components/components'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
@@ -43,6 +43,16 @@ export default () => (
         </Left>
       </HeaderBlock>
     </Wrapper>
+    <Wrapper>
+      <CenteredBox>
+        <Flex flexDirection='column'>
+          <SmallerHello>A super kool kidd</SmallerHello>
+          <Paragraph color="white" text="aklsdjf als dsaj fakl sdklajskldf jaslkfjaslk asdklf adkls flakds jflakds
+            jfklads fklads flkadjlkas jflks fasl fksafakld alsas fa fljsd faflk
+          als;kdf asfdja fasd fadafa a;lsj fadf aasdal jakl;dfjask;l fjdsa;/fajsfsdfa lkas falkjdsa fkasfasd;lfkas" />
+        </Flex>
+      </CenteredBox>
+    </Wrapper>
     <Footer>This site is a WIP!</Footer>
     <Footer>Check out <Link target="_blank" href="https://hackclub.com" color="#E82C3F">Hack Club</Link> while you're waiting for me to finish :)</Footer>
   </React.Fragment>
@@ -51,6 +61,11 @@ export default () => (
 const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70, textAlign: "left"})`
   line-height: 1.5;
   color: white;
+  font-family: 'Averta-Bold';
+`
+const SmallerHello = Heading.extend.attrs({f: 6, m: 0, fontSize: 50, textAlign: "center"})`
+  line-height: 1.5
+  color:white;
   font-family: 'Averta-Bold';
 `
 const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30, textAlign: "center"})`
