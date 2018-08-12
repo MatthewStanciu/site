@@ -34,7 +34,9 @@ export default () => (
       </HeaderBlock>
       <HeaderBlock>
         <Flex flexDirection='column'>
-          <Subhead>My Recent Projects</Subhead>
+          <Box width={350}>
+            <Subhead>My Recent Projects</Subhead>
+          </Box>
           <Project href="https://anonbotwl.glitch.me" title="Anonbot WL" desc="An Instagram bot for students at my school to submit confessions and announce anonymously"></Project>
           <Project href="http://thewritersblock.tech" title="The Writer's Block" desc="A decentralized writing platform that allows users to easily reward their favorite authors with Ethereum. Made at Hack Chicago 2018"></Project>
           <ProjectFinish href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="Pretty title and block quote generator to give a nice touch to Medium articles"></ProjectFinish>
@@ -53,7 +55,7 @@ const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70, textAlign: "left"}
   color: white;
   font-family: 'Averta-Bold';
 `
-const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30, textAlign: "left"})`
+const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30, textAlign: "center"})`
   line-height: 2;
   color: white;
   font-family: 'Averta-Bold';
