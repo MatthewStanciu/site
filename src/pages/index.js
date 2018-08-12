@@ -46,10 +46,20 @@ export default () => (
     <Wrapper>
       <CenteredBox>
         <Flex flexDirection='column'>
-          <SmallerHello>A super kool kidd</SmallerHello>
-          <Paragraph color="white" text="aklsdjf als dsaj fakl sdklajskldf jaslkfjaslk asdklf adkls flakds jflakds
-            jfklads fklads flkadjlkas jflks fasl fksafakld alsas fa fljsd faflk
-          als;kdf asfdja fasd fadafa a;lsj fadf aasdal jakl;dfjask;l fjdsa;/fajsfsdfa lkas falkjdsa fkasfasd;lfkas" />
+          <SmallerHello>A cool paragraph about me!</SmallerHello>
+          <Paragraph color="white" text="This paragraph is a work in progress,
+            but soon I will fill this space with things about me: who I am, where I'm from, how
+            old I am, etc. Then I will create another list that shows off my current positions
+            instead of my current projects. It might be a while because right now it's only
+            optimized for mobile and sizing this correctly for both desktop and mobile is
+            tricky, especially with all the other work I have to do!" />
+            <Flex flexDirection='column'>
+              <Box width={350}>
+                <Subhead>My Positions</Subhead>
+                <Project href="#" title="Position 1" desc="Description 1"></Project>
+                <ProjectFinish href="#" title="Position 2" desc="Description 2"></ProjectFinish>
+              </Box>
+            </Flex>
         </Flex>
       </CenteredBox>
     </Wrapper>
