@@ -64,7 +64,7 @@ export const ProjectFinish = ({title, desc, href, ...props}) => (
   </Link>
 )
 
-export const ProjectTitle = Text.extend.attrs({fontSize: 25})`
+export const ProjectTitle = Text.extend.attrs({fontSize: 25, textAlign: "center"})`
   font-family: 'Averta-Bold';
   color: white;
   line-height: 1.2;

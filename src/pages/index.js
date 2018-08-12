@@ -33,7 +33,7 @@ export default () => (
           </Flex>
       </HeaderBlock>
       <HeaderBlock>
-        <Flex flexDirection='column'>
+        <Left flexDirection='column'>
           <Box width={350}>
             <Subhead>My Recent Projects</Subhead>
           </Box>
@@ -41,7 +41,7 @@ export default () => (
           <Project href="http://thewritersblock.tech" title="The Writer's Block" desc="A decentralized writing platform that allows users to easily reward their favorite authors with Ethereum. Made at Hack Chicago 2018"></Project>
           <ProjectFinish href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="Pretty title and block quote generator to give a nice touch to Medium articles"></ProjectFinish>
 
-        </Flex>
+        </Left>
       </HeaderBlock>
 
     </Wrapper>
@@ -59,6 +59,10 @@ const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30, textAlign: "cent
   line-height: 2;
   color: white;
   font-family: 'Averta-Bold';
+`
+const Left = Flex.extend.attrs({})`
+  position: relative;
+  left: -40px;
 `
 
 const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
