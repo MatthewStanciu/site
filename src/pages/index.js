@@ -40,10 +40,8 @@ export default () => (
           <Project href="https://anonbotwl.glitch.me" title="Anonbot WL" desc="An Instagram bot for students at my school to submit confessions and announce anonymously"></Project>
           <Project href="http://thewritersblock.tech" title="The Writer's Block" desc="A decentralized writing platform that allows users to easily reward their favorite authors with Ethereum. Made at Hack Chicago 2018"></Project>
           <ProjectFinish href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="Pretty title and block quote generator to give a nice touch to Medium articles"></ProjectFinish>
-
         </Left>
       </HeaderBlock>
-
     </Wrapper>
     <Footer>This site is a WIP!</Footer>
     <Footer>Check out <Link target="_blank" href="https://hackclub.com" color="#E82C3F">Hack Club</Link> while you're waiting for me to finish :)</Footer>
@@ -63,6 +61,10 @@ const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30, textAlign: "cent
 const Left = Flex.extend.attrs({})`
   position: relative;
   left: -30px;
+`
+const CenteredBox = Column.extend.attrs({})`
+  display: flex;
+  justify-content: center;
 `
 
 const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
