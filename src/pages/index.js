@@ -62,7 +62,7 @@ const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30, textAlign: "cent
 `
 const Left = Flex.extend.attrs({})`
   position: relative;
-  left: -40px;
+  left: -30px;
 `
 
 const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
