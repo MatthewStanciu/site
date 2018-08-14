@@ -117,10 +117,3 @@ const SmallerBlock = Column.extend.attrs({ py: 1, pl: [null, 5]})`
     justify-content: center;
   }
 `
-const SmallestBlock = Column.extend.attrs({pl: [null, 5]})`
-  ${mx[0]} {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-`
