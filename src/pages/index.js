@@ -47,7 +47,7 @@ export default () => (
       <CenteredBox>
         <HeaderBlock></HeaderBlock>
         <HeaderBlock></HeaderBlock>
-        <HeaderBlock></HeaderBlock>
+        <SmallerBlock></SmallerBlock>
         <HeaderBlock>
           <SmallerHello>A cool paragraph about me!</SmallerHello>
           <Paragraph color="white" text="This paragraph is a work in progress,
@@ -57,7 +57,7 @@ export default () => (
             optimized for mobile and sizing this correctly for both desktop and mobile is
             tricky, especially with all the other work I have to do!" />
         </HeaderBlock>
-        <HeaderBlock></HeaderBlock>
+        <Column></Column>
         <HeaderBlock></HeaderBlock>
         <HeaderBlock></HeaderBlock>
         <HeaderBlock></HeaderBlock>
@@ -104,6 +104,20 @@ const CenteredBox = Column.extend.attrs({})`
 `
 
 const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
+  ${mx[0]} {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+`
+const SmallerBlock = Column.extend.attrs({ py: 1, pl: [null, 5]})`
+  ${mx[0]} {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+`
+const SmallestBlock = Column.extend.attrs({pl: [null, 5]})`
   ${mx[0]} {
     display: flex;
     flex-direction: column;
