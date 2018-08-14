@@ -68,9 +68,9 @@ export default () => (
         <Box width={350}>
           <Subhead>My Positions</Subhead>
           <Project href="https://wlcat.club" title="CAT Club President" desc="CAT Club is West Lafayette Jr/Sr High School's Hack Club. Students get together in a hackathon-like structure and learn to code by making amazing projects." />
-          <Project href="http://sideb.media" title="Side B President" desc="Side B is a new club and student public at my high school, aiming to give every student a voice and become a better writer."/>
+          <Project href="http://sideb.media" title="Side B President" desc="Side B is a new club and student publication at my high school, aiming to give every student a voice and become a better writer through a strong local community and the freedom to write whatever they want."/>
           <Project href="https://codeday.org/indianapolis" title="CodeDay Indianapolis Regional Manager" desc="CodeDay is a fun, nationwide hackathon aimed toward beginners that strengthens local communities and gets students interested in coding. I am the regional manager for Indianapolis." />
-          <ProjectFinish href="https://altheamesh.com" title="AltheaMesh West Lafayette Ambassador" desc="Althea aims to give in local communities the power to provide their own internet through a cryptocurrency-powered mesh network. I am in charge of deploying a network in West Lafayette." />
+          <ProjectFinish href="https://altheamesh.com" title="AltheaMesh West Lafayette Ambassador" desc="Althea aims to give local communities the power to provide internet to themselves through a cryptocurrency-powered mesh network. I am in charge of deploying an Althea network in West Lafayette." />
         </Box>
       </CenteredBox>
     </SmallerWrapper>
