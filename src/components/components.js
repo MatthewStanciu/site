@@ -13,6 +13,16 @@ export const Wrapper = Flex.extend.attrs({
     text-align: left;
   }
 `
+export const SmallerWrapper = Flex.extend.attrs({
+  flexDirection: ['column', 'row'],
+  px: 3
+})`
+  text-align: center;
+  ${mx[0]} {
+    min-height: 30vh;
+    text-align: left;
+  }
+`
 
 export const Icon = ({
   name = 'x',
@@ -48,7 +58,7 @@ export const Medium = ({ href, ...props }) => (
 )
 
 export const Paragraph = ({text, color, ...props}) => (
-  <Box width={350} color="black" {...props}>
+  <Box color="black" {...props}>
     <Text color={color} textAlign="left">{text}</Text>
   </Box>
 )

@@ -2,7 +2,7 @@ import React from "react";
 import '../style.css'
 import {mx} from '../reactstyle'
 import { Heading, Flex, Column, Box, Container, Link, Text } from 'rebass'
-import { Wrapper, Icon, Medium, SocialMedia, Paragraph,
+import { Wrapper, SmallerWrapper, Icon, Medium, SocialMedia, Paragraph,
    Project, ProjectTitle, ProjectDesc, ProjectFinish, Footer } from '../components/components'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
@@ -43,9 +43,12 @@ export default () => (
         </Left>
       </HeaderBlock>
     </Wrapper>
-    <Wrapper>
+    <SmallerWrapper>
       <CenteredBox>
-        <Flex flexDirection='column'>
+        <HeaderBlock></HeaderBlock>
+        <HeaderBlock></HeaderBlock>
+        <HeaderBlock></HeaderBlock>
+        <HeaderBlock>
           <SmallerHello>A cool paragraph about me!</SmallerHello>
           <Paragraph color="white" text="This paragraph is a work in progress,
             but soon I will fill this space with things about me: who I am, where I'm from, how
@@ -53,18 +56,26 @@ export default () => (
             instead of my current projects. It might be a while because right now it's only
             optimized for mobile and sizing this correctly for both desktop and mobile is
             tricky, especially with all the other work I have to do!" />
-            <Flex flexDirection='column'>
-              <Box width={350}>
-                <Subhead>My Positions</Subhead>
-                <Project href="#" title="Position 1" desc="Description 1"></Project>
-                <ProjectFinish href="#" title="Position 2" desc="Description 2"></ProjectFinish>
-              </Box>
-            </Flex>
-        </Flex>
+        </HeaderBlock>
+        <HeaderBlock></HeaderBlock>
+        <HeaderBlock></HeaderBlock>
+        <HeaderBlock></HeaderBlock>
+        <HeaderBlock></HeaderBlock>
       </CenteredBox>
-    </Wrapper>
+    </SmallerWrapper>
+    <SmallerWrapper>
+      <CenteredBox>
+        <Box width={350}>
+          <Subhead>My Positions</Subhead>
+          <Project href="https://wlcat.club" title="CAT Club President" desc="CAT Club is West Lafayette Jr/Sr High School's Hack Club. Students get together in a hackathon-like structure and learn to code by making amazing projects." />
+          <Project href="http://sideb.media" title="Side B President" desc="Side B is a new club and student public at my high school, aiming to give every student a voice and become a better writer."/>
+          <Project href="https://codeday.org/indianapolis" title="CodeDay Indianapolis Regional Manager" desc="CodeDay is a fun, nationwide hackathon aimed toward beginners that strengthens local communities and gets students interested in coding. I am the regional manager for Indianapolis." />
+          <ProjectFinish href="https://altheamesh.com" title="AltheaMesh West Lafayette Ambassador" desc="Althea aims to give in local communities the power to provide their own internet through a cryptocurrency-powered mesh network. I am in charge of deploying a network in West Lafayette." />
+        </Box>
+      </CenteredBox>
+    </SmallerWrapper>
+    <Footer />
     <Footer>This site is a WIP!</Footer>
-    <Footer>Check out <Link target="_blank" href="https://hackclub.com" color="#E82C3F">Hack Club</Link> while you're waiting for me to finish :)</Footer>
   </React.Fragment>
 )
 
