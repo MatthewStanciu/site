@@ -57,11 +57,15 @@ export const Medium = ({ href, ...props }) => (
   </Link>
 )
 
-export const Paragraph = ({text, color, ...props}) => (
-  <Box color="black" {...props}>
-    <Text color={color} textAlign="left">{text}</Text>
-  </Box>
-)
+export const Paragraph = Text.extend.attrs()`
+  color: white;
+  display: inline-block;
+  text-align: left;
+  line-height: 1.5;
+  border-radius: 999px;
+  padding: 0 .5em;
+  margin-left: -0.5em;
+`
 
 export const Project = ({title, desc, href, ...props}) => (
     <Link target="_blank" href={href} color="black" {...props}>

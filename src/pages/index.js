@@ -49,13 +49,44 @@ export default () => (
         <HeaderBlock></HeaderBlock>
         <SmallerBlock></SmallerBlock>
         <HeaderBlock>
-          <SmallerHello>A cool paragraph about me!</SmallerHello>
-          <Paragraph color="white" text="This paragraph is a work in progress,
-            but soon I will fill this space with things about me: who I am, where I'm from, how
-            old I am, etc. Then I will create another list that shows off my current positions
-            instead of my current projects. It might be a while because right now it's only
-            optimized for mobile and sizing this correctly for both desktop and mobile is
-            tricky, especially with all the other work I have to do!" />
+          <SmallerHello>Lover of words and software.</SmallerHello>
+          <Paragraph>My name is Matthew, and I'm a high school junior at the West Lafayette
+            Junior/Senior High School in West Lafayette, Indiana.
+            I first discovered my love for computers when I was 6 years old. My mom gave me an old laptop
+            from her work that nobody used anymore. Instead of being thrown away, it became my computer,
+            meaning that I had full access and admin priveleges. I quickly filled it with viruses and
+            eventually, the screen burnt out. Instead of fixing it, my mom found two more old laptops
+            and gave them to me. I eventually broke those, as well. This was such an important time of
+            development because it showed me that I loved how computers worked and I wanted to keep learning
+            how they work. <br/><br/>
+
+            At the same time, I took an interest in writing. When I was in 4th
+            grade, I wrote my first book called The Power Necklace (which is still published online) in addition
+            to countless imaginative short stories. I have spent much of my life writing and playing with
+            computers. <br/><br/>
+
+            I learned to code on Codecademy when I was 11. But I  always longed to be a part of something greater.
+            When I was almost 12, in December 2013, I started
+            my first Minecraft server called MCFun Central and began to learn how to make Minecraft server plugins.
+            MCFun Central turned into <Link target="_" href="https://extrillius.wordpress.com/" color="#afaeae">The Extrillius Network</Link> in January 2015, a project that I kept going for
+            two years before ultimately shutting it down. <br/><br/>
+
+            I now run a <Link target="_" href="https://hackclub.com" color="red">Hack Club</Link> at my school, as well as a new school
+            publication, <Link target="_" href="http://sideb.media" color="#CA4A3B">Side B</Link>, at my school.
+            I'm passionate about spreading computer science to everyone and enacting social change through community organzing. <br/><br/>
+
+            I love what I do and I hope I can do great things in the future.</Paragraph>
+          <Paragraph color="black" text="_" />
+          <Paragraph color="white" text="At the same time, I took an interest in writing. When I was in 4th
+            grade, I wrote my first book called The Power Necklace (which is still published online) in addition
+            to countless imaginative short stories. I have spent much of my life writing and playing with
+            computers." />
+          <Paragraph color="black" text="_" />
+          <Paragraph color="white" text="I learned to code on Codecademy when I was 11. But I  always longed to be a part of something greater.
+            When I was almost 12, in December 2013, I started
+            my first Minecraft server called MCFun Central and began to learn how to make Minecraft server plugins.
+            MCFun Central turned into The Extrillius Network in January 2015, a project that I kept going for
+            two years before ultimately shutting it down." />
         </HeaderBlock>
         <Column></Column>
         <HeaderBlock></HeaderBlock>
@@ -75,7 +106,7 @@ export default () => (
       </CenteredBox>
     </SmallerWrapper>
     <Footer />
-    <Footer>This site is a WIP!</Footer>
+    <Footer>Sorry if things are broken, especially on mobile! This site is a WIP.</Footer>
   </React.Fragment>
 )
 
@@ -84,7 +115,7 @@ const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70, textAlign: "left"}
   color: white;
   font-family: 'Averta-Bold';
 `
-const SmallerHello = Heading.extend.attrs({f: 6, m: 0, fontSize: 50, textAlign: "center"})`
+const SmallerHello = Heading.extend.attrs({fontSize: 45, textAlign: "center"})`
   line-height: 1.5
   color:white;
   font-family: 'Averta-Bold';
