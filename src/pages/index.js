@@ -110,7 +110,7 @@ const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70, textAlign: "left"}
   color: white;
   font-family: 'Averta-Bold';
 `
-const SmallerHello = Heading.extend.attrs({fontSize: 45, textAlign: "center"})`
+const SmallerHello = Heading.extend.attrs({fontSize: 45, mr: 3, textAlign: "center"})`
   line-height: 1.5
   color:white;
   font-family: 'Averta-Bold';
@@ -143,7 +143,7 @@ const SmallerBlock = Column.extend.attrs({ py: 1, pl: [null, 5]})`
     justify-content: center;
   }
 `
-const CenteredBlock = Column.extend.attrs({ py: 2, ml: [-65, 225], mr: [-35, 225]})`
+const CenteredBlock = Column.extend.attrs({ py: 2, ml: [-40, 225], mr: [-40, 225]})`
   ${mx[0]} {
     display: flex;
     flex-direction: column;
