@@ -45,9 +45,7 @@ export default () => (
     </Wrapper>
     <SmallerWrapper>
       <CenteredBox>
-        <HeaderBlock></HeaderBlock>
-        <HeaderBlock></HeaderBlock>
-        <SmallerBlock></SmallerBlock>
+        <CenteredBlock>
         <HeaderBlock>
           <SmallerHello>Lover of words and software.</SmallerHello>
           <Paragraph>My name is Matthew, and I'm a high school junior at the West Lafayette
@@ -88,10 +86,7 @@ export default () => (
             MCFun Central turned into The Extrillius Network in January 2015, a project that I kept going for
             two years before ultimately shutting it down." />
         </HeaderBlock>
-        <Column></Column>
-        <HeaderBlock></HeaderBlock>
-        <HeaderBlock></HeaderBlock>
-        <HeaderBlock></HeaderBlock>
+      </CenteredBlock>
       </CenteredBox>
     </SmallerWrapper>
     <SmallerWrapper>
@@ -142,6 +137,13 @@ const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
   }
 `
 const SmallerBlock = Column.extend.attrs({ py: 1, pl: [null, 5]})`
+  ${mx[0]} {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+`
+const CenteredBlock = Column.extend.attrs({ py: 2, mx: [-50, 225]})`
   ${mx[0]} {
     display: flex;
     flex-direction: column;
