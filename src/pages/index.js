@@ -86,7 +86,7 @@ export default () => (
             MCFun Central turned into The Extrillius Network in January 2015, a project that I kept going for
             two years before ultimately shutting it down." />
         </HeaderBlock>
-      </CenteredBlock>
+        </CenteredBlock>
       </CenteredBox>
     </SmallerWrapper>
     <SmallerWrapper>
@@ -105,7 +105,7 @@ export default () => (
   </React.Fragment>
 )
 
-const Hello = Heading.extend.attrs({f: 6, m: 0, fontSize: 70, textAlign: "left"})`
+const Hello = Heading.extend.attrs({m: 0, fontSize: 70, textAlign: "left"})`
   line-height: 1.5;
   color: white;
   font-family: 'Averta-Bold';
