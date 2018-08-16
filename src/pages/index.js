@@ -143,7 +143,7 @@ const SmallerBlock = Column.extend.attrs({ py: 1, pl: [null, 5]})`
     justify-content: center;
   }
 `
-const CenteredBlock = Column.extend.attrs({ py: 2, mx: [-50, 225]})`
+const CenteredBlock = Column.extend.attrs({ py: 2, ml: [-65, 225], mr: [-35, 225]})`
   ${mx[0]} {
     display: flex;
     flex-direction: column;
