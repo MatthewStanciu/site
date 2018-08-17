@@ -15,7 +15,7 @@ export default () => (
           meta={[
           {
             name: 'description',
-            content: 'Development portfolio',
+            content: 'My personal site',
           },
           {
             name: 'keywords',
