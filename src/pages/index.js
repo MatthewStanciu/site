@@ -25,7 +25,7 @@ export default () => (
       />
       <HeaderBlock>
           <Hello>Hi, I'm Matthew.</Hello>
-          <Flex>
+          <Flex ml={-10}>
             <SocialMedia href="https://github.com/MatthewStanciu" icon="github" />
             <Medium href="https://medium.com/@MatthewStanciu"/>
             <SocialMedia href="https://twitter.com/MatthewStanciu" icon="twitter" />
