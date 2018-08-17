@@ -96,12 +96,12 @@ export const ProjectDesc = Text.extend.attrs({textAlign: "center"})`
 `
 
 export const StyledBox = Box.extend.attrs({})`
-  padding: 10% 0 10% 0;
+  padding: 7% 0 7% 0;
   border-top:2px solid white;
 
 `
 export const StyledBoxFinish = Box.extend.attrs({})`
-  padding: 10% 0 10% 0;
+  padding: 7% 0 7% 0;
   border-top:2px solid white;
   border-bottom: 2px solid white;
 `
