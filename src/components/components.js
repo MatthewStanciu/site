@@ -67,17 +67,17 @@ export const Paragraph = Text.extend.attrs()`
   margin-left: -0.5em;
 `
 
-export const Project = ({title, desc, href, ...props}) => (
+export const Project = ({title, width, desc, href, ...props}) => (
     <Link target="_blank" href={href} color="black" {...props}>
-      <StyledBox width={350} p={3} color='white' bg='black' {...props}>
+      <StyledBox width={width} p={3} color='white' bg='black' {...props}>
         <ProjectTitle>{title}</ProjectTitle>
         <ProjectDesc>{desc}</ProjectDesc>
       </StyledBox>
     </Link>
 )
-export const ProjectFinish = ({title, desc, href, ...props}) => (
+export const ProjectFinish = ({title, width, desc, href, ...props}) => (
   <Link target="_blank" color="black" href={href} {...props}>
-    <StyledBoxFinish width={350} p={3} color='white' bg='black' {...props}>
+    <StyledBoxFinish width={width} p={3} color='white' bg='black' {...props}>
       <ProjectTitle>{title}</ProjectTitle>
       <ProjectDesc>{desc}</ProjectDesc>
     </StyledBoxFinish>
@@ -87,7 +87,7 @@ export const ProjectFinish = ({title, desc, href, ...props}) => (
 export const ProjectTitle = Text.extend.attrs({fontSize: 25, textAlign: "center"})`
   font-family: 'Averta-Bold';
   color: white;
-  line-height: 1.2;
+  line-height: 1.5;
 `
 export const ProjectDesc = Text.extend.attrs({textAlign: "center"})`
   font-family: 'Averta';

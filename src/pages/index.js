@@ -37,9 +37,9 @@ export default () => (
           <Box width={350}>
             <Subhead>My Recent Projects</Subhead>
           </Box>
-          <Project href="https://www.instagram.com/anonbot.wl/" title="Anonbot WL" desc="An Instagram bot for students at my school to submit confessions and announce anonymously"></Project>
-          <Project href="http://thewritersblock.tech" title="The Writer's Block" desc="A decentralized writing platform that allows users to easily reward their favorite authors with Ethereum. Made at Hack Chicago 2018"></Project>
-          <ProjectFinish href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="Pretty title and block quote generator to give a nice touch to Medium articles"></ProjectFinish>
+          <Project width={350} href="https://www.instagram.com/anonbot.wl/" title="Anonbot WL" desc="An Instagram bot for students at my school to submit confessions and announce anonymously"></Project>
+          <Project width={350} href="http://thewritersblock.tech" title="The Writer's Block" desc="A decentralized writing platform that allows users to easily reward their favorite authors with Ethereum. Made at Hack Chicago 2018"></Project>
+          <ProjectFinish width={350} href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="Pretty title and block quote generator to give a nice touch to Medium articles"></ProjectFinish>
         </Left>
       </HeaderBlock>
     </Wrapper>
@@ -81,12 +81,12 @@ export default () => (
     </SmallerWrapper>
     <SmallerWrapper>
       <CenteredBox>
-        <Box width={350}>
+        <Box width={[350, 500]}>
           <Subhead>My Positions</Subhead>
-          <Project href="https://wlcat.club" title="CAT Club President" desc="CAT Club is West Lafayette Jr/Sr High School's Hack Club. Students get together in a hackathon-like structure and learn to code by making amazing projects." />
-          <Project href="http://sideb.media" title="Side B President" desc="Side B is a new club and student publication at my high school, aiming to give every student a voice and become a better writer through a strong local community and the freedom to write whatever they want."/>
-          <Project href="https://codeday.org/indianapolis" title="CodeDay Indianapolis Regional Manager" desc="CodeDay is a fun, nationwide hackathon aimed toward beginners that strengthens local communities and gets students interested in coding. I am the regional manager for Indianapolis." />
-          <ProjectFinish href="https://altheamesh.com" title="AltheaMesh West Lafayette Ambassador" desc="Althea aims to give local communities the power to provide internet to themselves through a cryptocurrency-powered mesh network. I am in charge of deploying an Althea network in West Lafayette." />
+          <Project width={[350, 500]} href="https://wlcat.club" title="CAT Club President" desc="CAT Club is West Lafayette Jr/Sr High School's Hack Club. Students get together in a hackathon-like structure and learn to code by making amazing projects." />
+          <Project width={[350, 500]} href="http://sideb.media" title="Side B President" desc="Side B is a new club and student publication at my high school, aiming to give every student a voice and become a better writer through a strong local community and the freedom to write whatever they want."/>
+          <Project width={[350, 500]} href="https://codeday.org/indianapolis" title="CodeDay Indianapolis Regional Manager" desc="CodeDay is a fun, nationwide hackathon aimed toward beginners that strengthens local communities and gets students interested in coding. I am the regional manager for Indianapolis." />
+          <ProjectFinish width={[350, 500]} href="https://altheamesh.com" title="AltheaMesh West Lafayette Ambassador" desc="Althea aims to give local communities the power to provide internet to themselves through a cryptocurrency-powered mesh network. I am in charge of deploying an Althea network in West Lafayette." />
         </Box>
       </CenteredBox>
     </SmallerWrapper>
