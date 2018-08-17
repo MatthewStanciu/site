@@ -25,7 +25,7 @@ export default () => (
       />
       <HeaderBlock>
           <Hello>Hi, I'm Matthew.</Hello>
-          <Flex ml={-10}>
+          <Flex ml={[-15, -10]}>
             <SocialMedia href="https://github.com/MatthewStanciu" icon="github" />
             <Medium href="https://medium.com/@MatthewStanciu"/>
             <SocialMedia href="https://twitter.com/MatthewStanciu" icon="twitter" />
@@ -101,6 +101,11 @@ export default () => (
 )
 
 const Hello = Heading.extend.attrs({m: 0, fontSize: 70, textAlign: "left"})`
+  position: relative;
+  left: -6px;
+  ${mx[0]} {
+    left: 0px;
+  }
   line-height: 1.5;
   color: white;
   font-family: 'Averta-Bold';
