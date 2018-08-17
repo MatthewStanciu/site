@@ -91,7 +91,10 @@ export default () => (
       </CenteredBox>
     </SmallerWrapper>
     <Footer />
-    <Footer>This site is a WIP!</Footer>
+    <Footer>
+      Made with ❤️ by Matthew Stanciu<br/><br/>
+      <Link target="_" href="https://github.com/MatthewStanciu/site" color="white">View on GitHub</Link>
+    </Footer>
   </React.Fragment>
 )
 
