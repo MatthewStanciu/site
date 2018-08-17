@@ -49,7 +49,8 @@ export default () => (
         <HeaderBlock>
           <SmallerHello>Lover of words and software.</SmallerHello>
           <Paragraph>My name is Matthew Stanciu, and I'm a high school junior at the West Lafayette
-            Junior/Senior High School in West Lafayette, Indiana.
+            Junior/Senior High School in West Lafayette, Indiana.<br/><br/>
+
             I first discovered my love for computers when I was 6 years old and my mom gave me an old laptop
             from her work that nobody used anymore. Instead of being thrown away, it became my computer,
             meaning that I had full access and admin priveleges. I quickly filled it with viruses and
@@ -100,7 +101,7 @@ const Hello = Heading.extend.attrs({m: 0, fontSize: 70, textAlign: "left"})`
   font-family: 'Averta-Bold';
 `
 const SmallerHello = Heading.extend.attrs({fontSize: 45, mr: 3, textAlign: "center"})`
-  line-height: 1.5
+  line-height: 1.5;
   color:white;
   font-family: 'Averta-Bold';
 `
