@@ -33,7 +33,7 @@ export default () => (
           </Flex>
       </HeaderBlock>
       <HeaderBlock>
-        <Left flexDirection='column'>
+        <Left flexDirection='column' mt={[null, 60]}>
           <Box width={350}>
             <Subhead>My Recent Projects</Subhead>
           </Box>
@@ -43,6 +43,7 @@ export default () => (
         </Left>
       </HeaderBlock>
     </Wrapper>
+    <Break />
     <SmallerWrapper>
       <CenteredBox>
         <CenteredBlock>
@@ -113,23 +114,30 @@ const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30, textAlign: "cent
   color: white;
   font-family: 'Averta-Bold';
 `
-const Left = Flex.extend.attrs({})`
+const Left = Flex.extend.attrs()`
   position: relative;
-  left: -30px;
+  left: -25px;
+  ${mx[0]} {
+    left: -7px;
+  }
 `
 const CenteredBox = Column.extend.attrs({})`
   display: flex;
   justify-content: center;
 `
 
-const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
+export const Break = Flex.extend.attrs({
+  flexDirection: ['column', 'row'],
+  px: 3
+})`
+  text-align: center;
   ${mx[0]} {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    min-height: 12vh;
+    text-align: left;
   }
 `
-const SmallerBlock = Column.extend.attrs({ py: 1, pl: [null, 5]})`
+
+const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
   ${mx[0]} {
     display: flex;
     flex-direction: column;
