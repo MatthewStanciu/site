@@ -66,7 +66,7 @@ export default () => (
             computers since then. <br/><br/>
 
             I learned to code on Codecademy when I was 11, but I always longed to be a part of something bigger; to
-            do real things and facilitate real change with what I had learned.
+            do real things and make a real difference with what I had learned.
             So, when I was almost 12, in December 2013, I started
             my first Minecraft server called MCFun Central and began to learn how to make Minecraft server plugins.
             MCFun Central turned into <Link target="_" href="https://extrillius.wordpress.com/" color="#afaeae">The Extrillius Network</Link> in January 2015, a project that I kept going for
@@ -92,7 +92,7 @@ export default () => (
         </Box>
       </CenteredBox>
     </SmallerWrapper>
-    <Footer />
+    <Break />
     <Footer>
       Made with ❤️ by Matthew Stanciu<br/><br/>
       <Link target="_" href="https://github.com/MatthewStanciu/site" color="white">View on GitHub</Link>
