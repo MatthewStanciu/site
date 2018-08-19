@@ -1,6 +1,6 @@
 import React from 'react'
 import { Heading, Flex, Box, Link, Image, Text } from 'rebass'
-import {mx} from '../reactstyle'
+import {mx} from '../screensizes'
 import { replace } from 'lodash';
 
 export const Wrapper = Flex.extend.attrs({
@@ -36,7 +36,7 @@ export const Icon = ({
     {...props}
   />
 )
-export const NotNowIcon = ({
+export const MediumIcon = ({
   name = 'x',
   fill = '#fff'
 }) => (
@@ -53,7 +53,7 @@ export const SocialMedia = ({ href, icon, ...props }) => (
 )
 export const Medium = ({ href, ...props }) => (
   <Link target="_blank" href={href} mx={3} {...props}>
-    <NotNowIcon fill={'#fff'} />
+    <MediumIcon fill={'#fff'} />
   </Link>
 )
 

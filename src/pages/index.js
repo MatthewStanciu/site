@@ -1,6 +1,6 @@
 import React from "react";
 import '../style.css'
-import {mx} from '../reactstyle'
+import {mx} from '../screensizes'
 import { Heading, Flex, Column, Box, Container, Link, Text } from 'rebass'
 import { Wrapper, SmallerWrapper, Icon, Medium, SocialMedia, Paragraph,
    Project, ProjectTitle, ProjectDesc, ProjectFinish, Footer } from '../components/components'
@@ -37,9 +37,9 @@ export default () => (
           <Box width={350}>
             <Subhead>My Recent Projects</Subhead>
           </Box>
-          <Project width={350} href="https://www.instagram.com/anonbot.wl/" title="Anonbot WL" desc="An Instagram bot for students at my school to submit confessions and announce anonymously"></Project>
-          <Project width={350} href="http://thewritersblock.tech" title="The Writer's Block" desc="A decentralized writing platform that allows users to easily reward their favorite authors with Ethereum. Made at Hack Chicago 2018"></Project>
-          <ProjectFinish width={350} href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="A pretty title and block quote generator that gives a nice touch to Medium articles"></ProjectFinish>
+          <Project width={350} href="https://www.instagram.com/anonbot.wl/" title="Anonbot WL" desc="An Instagram bot for students at my school to submit confessions and announce anonymously" />
+          <Project width={350} href="http://thewritersblock.tech" title="The Writer's Block" desc="A decentralized writing platform that allows users to easily reward their favorite authors with Ethereum. Made at Hack Chicago 2018" />
+          <ProjectFinish width={350} href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="A pretty title and block quote generator that gives a nice touch to Medium articles" />
         </Left>
       </HeaderBlock>
     </Wrapper>
