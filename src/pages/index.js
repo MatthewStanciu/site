@@ -69,10 +69,18 @@ export default () => (
             I learned to code on Codecademy when I was 11, but I always longed to be a part of something bigger; to
             do real things and make a real difference with what I had learned.
             So, when I was almost 12, in December 2013, I started
-            my first Minecraft server called MCFun Central and began to learn how to make Minecraft server plugins.
-            MCFun Central turned into <Link target="_" href="https://extrillius.wordpress.com/" color="#afaeae">The Extrillius Network</Link> in January 2015, a project that I kept going for
-            two years before shutting it down. <br/><br/>
+            my first Minecraft server called MCFun Central and began learning how to make Minecraft server plugins. MCFun
+            Central was all about having fun, but my ultimate goal was to create a personalized environment for every
+            player and make it so that they always feel at home. It sounds silly, but my Minecraft server was
+            the first time I ever felt like I could make a real difference with my code.<br/><br/>
 
+            MCFun Central turned into <Link target="_" href="https://extrillius.wordpress.com/" color="#afaeae">The Extrillius Network</Link> in January 2015,
+            a project that really took my original vision to the sky's limit with a more dedicated staff team and ambitious goals of making almost all custom plugins.
+            I kept Extrillius going for two years before shutting it down, and in that time, I learned so much more about
+            Java, project management, and effective communication. <br/><br/>
+
+            After Extrillius, I went on to learn as much as I could about many interesting topics, including blockchain, networking, and
+            web development, which I had been wanting to get into for a very long time.
             I have now combined my two passions by running a <Link target="_" href="https://hackclub.com" color="red">Hack Club</Link> at my school, as well as a new school
             publication, <Link target="_" href="http://sideb.media" color="#CA4A3B">Side B</Link>.
             I'm passionate about spreading computer science to everyone and facilitating social change through community organzing. <br/><br/>
