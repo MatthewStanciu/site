@@ -32,7 +32,7 @@ export const Icon = ({
   <Image
     alt={`${name} icon`}
     src={`https://icon.now.sh/${name}/${42}/${replace(fill, '#', '')}`}
-    style={{ width: 42, height: 42 }}
+    width={42}
     {...props}
   />
 )
@@ -43,7 +43,6 @@ export const MediumIcon = ({
   <Image
     src={'https://cdn.glitch.com/698488f3-b848-4b11-be98-9b7babb373a2%2FMedium.png?1533753316954'}
     width={42}
-    mt={[5.5, 0]}
   />
 )
 
