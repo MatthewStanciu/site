@@ -47,12 +47,12 @@ export const MediumIcon = ({
 )
 
 export const SocialMedia = ({ href, icon, ...props }) => (
-  <Link target="_blank" href={href} mx={3} {...props}>
+  <Link target="_blank" href={href} mx={[10.5, 3]} {...props}>
     <Icon name={icon} fill={'#fff'} />
   </Link>
 )
 export const Medium = ({ href, ...props }) => (
-  <Link target="_blank" href={href} mx={3} {...props}>
+  <Link target="_blank" href={href} mx={[10.5, 3]} {...props}>
     <MediumIcon fill={'#fff'} />
   </Link>
 )
