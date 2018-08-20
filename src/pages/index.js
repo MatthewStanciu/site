@@ -30,6 +30,7 @@ export default () => (
             <Medium href="https://medium.com/@MatthewStanciu"/>
             <SocialMedia href="https://twitter.com/MatthewStanciu" icon="twitter" />
             <SocialMedia href="https://instagram.com/matthewstanciu" icon="instagram" />
+            <SocialMedia href="mailto:mattbstanciu@gmail.com" icon="mail" />
           </Flex>
       </HeaderBlock>
       <HeaderBlock>

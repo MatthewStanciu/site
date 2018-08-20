@@ -41,8 +41,9 @@ export const MediumIcon = ({
   fill = '#fff'
 }) => (
   <Image
-    src={`https://cdn.glitch.com/698488f3-b848-4b11-be98-9b7babb373a2%2FMedium.png?1533753316954`}
-    style={{width: 42, height: 42}}
+    src={'https://cdn.glitch.com/698488f3-b848-4b11-be98-9b7babb373a2%2FMedium.png?1533753316954'}
+    width={42}
+    mt={[5.5, 0]}
   />
 )
 
