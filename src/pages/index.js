@@ -159,7 +159,7 @@ const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
     justify-content: center;
   }
 `
-const CenteredBlock = Column.extend.attrs({ py: 2, ml: [-25, 210], mr: [-40, 240]})`
+const CenteredBlock = Column.extend.attrs({ py: 2})`
   ${mx[0]} {
     display: flex;
     flex-direction: column;
