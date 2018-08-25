@@ -119,7 +119,7 @@ const Hello = Heading.extend.attrs({m: 0, fontSize: 70, textAlign: "left"})`
   color: white;
   font-family: 'Averta-Bold';
 `
-const SmallerHello = Heading.extend.attrs({fontSize: 45, mr: 3, textAlign: "center"})`
+const SmallerHello = Heading.extend.attrs({fontSize: 45, mr: 3, textAlign: "center", ml: [-25, 210], mr: [-13, 240]})`
   line-height: 1.5;
   color:white;
   font-family: 'Averta-Bold';
