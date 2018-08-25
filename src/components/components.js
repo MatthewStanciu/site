@@ -57,14 +57,13 @@ export const Medium = ({ href, ...props }) => (
   </Link>
 )
 
-export const Paragraph = Text.extend.attrs()`
+export const Paragraph = Text.extend.attrs({fontSize: 20})`
   color: white;
   display: inline-block;
   text-align: left;
   line-height: 1.5;
   border-radius: 999px;
   padding: 0 .5em;
-  margin-left: -0.5em;
 `
 
 export const Project = ({title, width, desc, href, ...props}) => (
@@ -106,7 +105,7 @@ export const StyledBoxFinish = Box.extend.attrs({})`
   border-bottom: 2px solid white;
 `
 
-export const Footer = Text.extend.attrs({py: 1, textAlign: 'center'})`
+export const Footer = Text.extend.attrs({py: 1, mb: 75, textAlign: 'center'})`
   font-family: 'Averta';
   color: white;
   line-height: 1;
