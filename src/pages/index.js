@@ -48,7 +48,7 @@ export default () => (
     <Break />
     <SmallerWrapper>
       <CenteredBox>
-        <CenteredBlock>
+        <CenteredHeaderBlock>
         <HeaderBlock>
           <SmallerHello>Lover of words and software.</SmallerHello>
           <Paragraph>My name is Matthew Stanciu, and I'm a high school junior at the West Lafayette
@@ -88,7 +88,7 @@ export default () => (
 
             I love my life and what I do, and I hope I can do great things in the future.</Paragraph>
         </HeaderBlock>
-        </CenteredBlock>
+      </CenteredHeaderBlock>
       </CenteredBox>
     </SmallerWrapper>
     <SmallerWrapper>
@@ -160,7 +160,7 @@ const HeaderBlock = Column.extend.attrs({ py: 2, pl: [null, 5] })`
     justify-content: center;
   }
 `
-const CenteredBlock = Column.extend.attrs({ py: 2})`
+const CenteredHeaderBlock = Column.extend.attrs({ py: 2 })`
   ${mx[0]} {
     display: flex;
     flex-direction: column;
