@@ -54,25 +54,25 @@ export default () => (
             <Paragraph>My name is Matthew Stanciu, and I'm a high school junior at the West Lafayette
               Junior/Senior High School in West Lafayette, Indiana.<br/><br/>
 
-              I first discovered my love for computers when I was 6 years old and my mom gave me an old laptop
-              from her workplace that nobody used anymore. Instead of being thrown away, it became my computer,
-              meaning that I had full access and admin priveleges. I quickly filled it with viruses, and
-              eventually, the screen burned out. Instead of fixing it, my mom found two more old laptops
+              When I was 6 years old, my mom gave me an old laptop
+              from her workplace that nobody used anymore. Instead of getting rid of it, it became my own computer,
+              giving me complete admin privileges. I quickly filled it with viruses, but
+              I used it until the screen burned out. When it did, my mom found two more old laptops
               and gave them to me. I eventually broke those as well. This was such an important time in
-              my life because it showed me that I loved how computers worked and that I wanted to keep learning
+              my life because I learned that I loved how computers worked and that I wanted to keep learning
               how they work. <br/><br/>
 
-              I have also always been passionate about writing. When I was in 4th
-              grade, I wrote my first book called The Power Necklace (which is still published online today) in addition
-              to countless imaginative short stories. I have spent much of my life writing and playing with
-              computers since then. <br/><br/>
+              I have always been passionate about writing as well. I wrote countless imaginative short stories throughout
+              my childhood, and when I was in 4th grade, I wrote a book called The Power Necklace
+              (which is sitll published online today). I have spent much of my life writing and playing with computers
+              since then. <br/><br/>
 
               I learned to code on Codecademy when I was 11, but I always longed to be a part of something bigger; to
               do real things and make a real difference with what I had learned.
               So, when I was almost 12, in December 2013, I started
               my first Minecraft server called MCFun Central and began learning how to make Minecraft server plugins. MCFun
               Central was all about having fun, but my ultimate goal was to create a personalized environment for every
-              player and make it so that they always felt at home. It sounds silly, but running my Minecraft server was
+              player so that they always felt at home. It sounds silly, but running my Minecraft server was
               the first time I ever felt like I could make a real difference with code.<br/><br/>
 
               MCFun Central turned into <Link target="_" href="https://extrillius.wordpress.com/" color="#afaeae">The Extrillius Network</Link> in January 2015,
