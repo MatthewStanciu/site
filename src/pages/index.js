@@ -140,8 +140,6 @@ const Left = Flex.extend.attrs()`
 const CenteredBox = Column.extend.attrs({})`
   display: flex;
   justify-content: center;
-  float: none;
-  margin: 0 auto;
 `
 
 export const Break = Flex.extend.attrs({
