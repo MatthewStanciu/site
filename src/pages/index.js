@@ -57,14 +57,14 @@ export default () => (
               When I was 6 years old, my mom gave me an old laptop
               from her workplace that nobody used anymore. Instead of getting rid of it, it became my own computer,
               giving me complete admin privileges. I quickly filled it with viruses, but
-              I used it until the screen burned out. When it did, my mom found two more old laptops
+              I continued to use it until the screen burned out. When it finally did, my mom found two more old laptops
               and gave them to me. I eventually broke those as well. This was such an important time in
               my life because I learned that I loved how computers worked and that I wanted to keep learning
               how they work. <br/><br/>
 
               I have always been passionate about writing as well. I wrote countless imaginative short stories throughout
               my childhood, and when I was in 4th grade, I wrote a book called The Power Necklace
-              (which is sitll published online today). I have spent much of my life writing and playing with computers
+              (which is still published online today). I have spent much of my life writing and playing with computers
               since then. <br/><br/>
 
               I learned to code on Codecademy when I was 11, but I always longed to be a part of something bigger; to
