@@ -10,7 +10,7 @@ import FadeIn from 'react-fade-in'
 
 export default () => (
   <React.Fragment>
-    <FadeIn delay={300} transitionDuration={750}>
+    <FadeIn delay={500} transitionDuration={750}>
       <Wrapper>
         <Helmet
             title='❤️ Matthew Stanciu'
@@ -49,7 +49,7 @@ export default () => (
       </Wrapper>
     </FadeIn>
     <Break />
-    <FadeIn delay={800} transitionDuration={750}>
+    <FadeIn delay={1000} transitionDuration={750}>
       <SmallerWrapper>
         <CenteredBox>
           <CenteredHeaderBlock>
@@ -96,22 +96,24 @@ export default () => (
         </CenteredBox>
       </SmallerWrapper>
     </FadeIn>
-    <SmallerWrapper>
-      <CenteredBox>
-        <Box width={[350, 500]}>
-          <Subhead>My Positions</Subhead>
-          <Project width={[350, 500]} href="https://wlcat.club" title="CAT Club President" desc="CAT Club is West Lafayette Jr/Sr High School's Hack Club. Students get together in hackathon-like meetings and learn to code by making amazing projects." />
-          <Project width={[350, 500]} href="http://sideb.media" title="Side B President" desc="Side B is a new club and student publication at my high school which aims to give every student a voice and become a better writer through a strong local community and the freedom to write whatever they want."/>
-          <Project width={[350, 500]} href="https://codeday.org/indianapolis" title="CodeDay Indianapolis Regional Manager" desc="CodeDay is a fun, nationwide hackathon aimed toward beginners that strengthens local communities and gets students interested in coding. I am the regional manager for Indianapolis." />
-          <ProjectFinish width={[350, 500]} href="https://altheamesh.com" title="AltheaMesh West Lafayette Ambassador" desc="Althea aims to give local communities the power to provide internet to themselves through a cryptocurrency-powered mesh network. I am in charge of deploying an Althea network in West Lafayette." />
-        </Box>
-      </CenteredBox>
-    </SmallerWrapper>
-    <Break />
-    <Footer>
-      Made with ❤️ by Matthew Stanciu<br/><br/>
-      <Link target="_" href="https://github.com/MatthewStanciu/site" color="white">View on GitHub</Link>
-    </Footer>
+    <FadeIn delay={1000} transitionDuration={750}>
+      <SmallerWrapper>
+        <CenteredBox>
+          <Box width={[350, 500]}>
+            <Subhead>My Positions</Subhead>
+            <Project width={[350, 500]} href="https://wlcat.club" title="CAT Club President" desc="CAT Club is West Lafayette Jr/Sr High School's Hack Club. Students get together in hackathon-like meetings and learn to code by making amazing projects." />
+            <Project width={[350, 500]} href="http://sideb.media" title="Side B President" desc="Side B is a new club and student publication at my high school which aims to give every student a voice and become a better writer through a strong local community and the freedom to write whatever they want."/>
+            <Project width={[350, 500]} href="https://codeday.org/indianapolis" title="CodeDay Indianapolis Regional Manager" desc="CodeDay is a fun, nationwide hackathon aimed toward beginners that strengthens local communities and gets students interested in coding. I am the regional manager for Indianapolis." />
+            <ProjectFinish width={[350, 500]} href="https://altheamesh.com" title="AltheaMesh West Lafayette Ambassador" desc="Althea aims to give local communities the power to provide internet to themselves through a cryptocurrency-powered mesh network. I am in charge of deploying an Althea network in West Lafayette." />
+          </Box>
+        </CenteredBox>
+      </SmallerWrapper>
+      <Break />
+      <Footer>
+        Made with ❤️ by Matthew Stanciu<br/><br/>
+        <Link target="_" href="https://github.com/MatthewStanciu/site" color="white">View on GitHub</Link>
+      </Footer>
+    </FadeIn>
   </React.Fragment>
 )
 
