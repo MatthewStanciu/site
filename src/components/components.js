@@ -57,7 +57,7 @@ export const Medium = ({ href, ...props }) => (
   </Link>
 )
 
-export const Paragraph = Text.extend.attrs({fontSize: 20, ml: [-55, "19%"], mr: [-65, "19%"]})`
+export const Paragraph = Text.extend.attrs({fontSize: 20, ml: [-55, "19%"], mr: [-65, "21%"]})`
   color: white;
   display: inline-block;
   text-align: left;
