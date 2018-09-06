@@ -50,7 +50,6 @@ export default () => (
       </Wrapper>
     </FadeIn>
     <Break />
-
       <SmallerWrapper>
         <CenteredBox>
           <CenteredHeaderBlock>
