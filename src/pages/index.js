@@ -55,8 +55,10 @@ export default () => (
         <CenteredBox>
           <CenteredHeaderBlock>
             <HeaderBlock>
-              <SmallerHello>Lover of words and software.</SmallerHello>
-              <Fade big>
+              <FadeIn delay={500} transitionDuration={750}>
+                <SmallerHello>Lover of words and software.</SmallerHello>
+              </FadeIn>
+              <Fade>
                 <Paragraph>My name is Matthew Stanciu, and I'm a high school junior at the West Lafayette
                   Junior/Senior High School in West Lafayette, Indiana.<br/><br/>
 
