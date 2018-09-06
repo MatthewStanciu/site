@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
 import '../style.css'
 import {mx} from '../screensizes'
 import { Heading, Flex, Column, Box, Container, Link, Text } from 'rebass'
@@ -49,54 +50,55 @@ export default () => (
       </Wrapper>
     </FadeIn>
     <Break />
-    <FadeIn delay={1000} transitionDuration={750}>
+
       <SmallerWrapper>
         <CenteredBox>
           <CenteredHeaderBlock>
             <HeaderBlock>
               <SmallerHello>Lover of words and software.</SmallerHello>
-              <Paragraph>My name is Matthew Stanciu, and I'm a high school junior at the West Lafayette
-                Junior/Senior High School in West Lafayette, Indiana.<br/><br/>
+              <Fade big>
+                <Paragraph>My name is Matthew Stanciu, and I'm a high school junior at the West Lafayette
+                  Junior/Senior High School in West Lafayette, Indiana.<br/><br/>
 
-                When I was 6 years old, my mom gave me an old laptop
-                from her workplace that nobody used anymore. Instead of getting rid of it, it became my own computer,
-                giving me complete admin privileges. I quickly filled it with viruses, but
-                I continued to use it until the screen burned out. When it finally did, my mom found two more old laptops
-                and gave them to me. I eventually broke those as well. This was such an important time in
-                my life because I learned that I loved how computers worked and that I wanted to keep learning
-                how they work. <br/><br/>
+                  When I was 6 years old, my mom gave me an old laptop
+                  from her workplace that nobody used anymore. Instead of getting rid of it, it became my own computer,
+                  giving me complete admin privileges. I quickly filled it with viruses, but
+                  I continued to use it until the screen burned out. When it finally did, my mom found two more old laptops
+                  and gave them to me. I eventually broke those as well. This was such an important time in
+                  my life because I learned that I loved how computers worked and that I wanted to keep learning
+                  how they work. <br/><br/>
 
-                I have always been passionate about writing as well. I wrote countless imaginative short stories throughout
-                my childhood, and when I was in 4th grade, I wrote a book called The Power Necklace
-                (which is still published online today). I have spent much of my life writing and playing with computers
-                since then. <br/><br/>
+                  I have always been passionate about writing as well. I wrote countless imaginative short stories throughout
+                  my childhood, and when I was in 4th grade, I wrote a book called The Power Necklace
+                  (which is still published online today). I have spent much of my life writing and playing with computers
+                  since then. <br/><br/>
 
-                I learned to code on Codecademy when I was 11, but I always longed to be a part of something bigger; to
-                do real things and make a real difference with what I had learned.
-                So, when I was almost 12, in December 2013, I started
-                my first Minecraft server called MCFun Central and began learning how to make Minecraft server plugins. MCFun
-                Central was all about having fun, but my ultimate goal was to create a personalized environment for every
-                player so that they always felt at home. It sounds silly, but running my Minecraft server was
-                the first time I ever felt like I could make a real difference with code.<br/><br/>
+                  I learned to code on Codecademy when I was 11, but I always longed to be a part of something bigger; to
+                  do real things and make a real difference with what I had learned.
+                  So, when I was almost 12, in December 2013, I started
+                  my first Minecraft server called MCFun Central and began learning how to make Minecraft server plugins. MCFun
+                  Central was all about having fun, but my ultimate goal was to create a personalized environment for every
+                  player so that they always felt at home. It sounds silly, but running my Minecraft server was
+                  the first time I ever felt like I could make a real difference with code.<br/><br/>
 
-                MCFun Central turned into <Link target="_" href="https://extrillius.wordpress.com/" color="#afaeae">The Extrillius Network</Link> in January 2015,
-                a project that really took my original vision to the sky's limit with a more dedicated staff team and ambitious goals of making almost all custom plugins.
-                I kept Extrillius going for two years before shutting it down, and in that time, I learned so much more about
-                programming, project management, and effective communication. <br/><br/>
+                  MCFun Central turned into <Link target="_" href="https://extrillius.wordpress.com/" color="#afaeae">The Extrillius Network</Link> in January 2015,
+                  a project that really took my original vision to the sky's limit with a more dedicated staff team and ambitious goals of making almost all custom plugins.
+                  I kept Extrillius going for two years before shutting it down, and in that time, I learned so much more about
+                  programming, project management, and effective communication. <br/><br/>
 
-                After Extrillius, I went on to learn as much as I could about many interesting topics, including blockchain,
-                web development (which I had been wanting to get into for a very long time), and a little bit of machine learning.
-                I have now combined my two passions by running a <Link target="_" href="https://hackclub.com" color="red">Hack Club</Link> at my school, as well as a new school
-                publication, <Link target="_" href="http://sideb.media" color="#CA4A3B">Side B</Link>.
-                I'm passionate about spreading computer science to everyone and facilitating social change through community organzing. <br/><br/>
+                  After Extrillius, I went on to learn as much as I could about many interesting topics, including blockchain,
+                  web development (which I had been wanting to get into for a very long time), and a little bit of machine learning.
+                  I have now combined my two passions by running a <Link target="_" href="https://hackclub.com" color="red">Hack Club</Link> at my school, as well as a new school
+                  publication, <Link target="_" href="http://sideb.media" color="#CA4A3B">Side B</Link>.
+                  I'm passionate about spreading computer science to everyone and facilitating social change through community organzing. <br/><br/>
 
-                I love my life and what I do, and I hope I can do great things in the future.</Paragraph>
+                  I love my life and what I do, and I hope I can do great things in the future.</Paragraph>
+              </Fade>
             </HeaderBlock>
           </CenteredHeaderBlock>
         </CenteredBox>
       </SmallerWrapper>
-    </FadeIn>
-    <FadeIn delay={1000} transitionDuration={750}>
+    <Fade bottom>
       <SmallerWrapper>
         <CenteredBox>
           <Box width={[350, 500]}>
@@ -113,7 +115,7 @@ export default () => (
         Made with ❤️ by Matthew Stanciu<br/><br/>
         <Link target="_" href="https://github.com/MatthewStanciu/site" color="white">View on GitHub</Link>
       </Footer>
-    </FadeIn>
+    </Fade>
   </React.Fragment>
 )
 
