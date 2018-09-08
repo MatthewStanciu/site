@@ -91,7 +91,7 @@ export const ProjectTitle = Text.extend.attrs({fontSize: 25, textAlign: "center"
 export const ProjectDesc = Text.extend.attrs({textAlign: "center"})`
   font-family: 'Averta';
   color: #b2b2b2;
-  line-height: 1;
+  line-height: 1.2;
 `
 
 export const StyledBox = Box.extend.attrs({})`
