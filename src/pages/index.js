@@ -41,7 +41,7 @@ export default () => (
             <Box width={350}>
               <Subhead>My Recent Projects</Subhead>
               <Project width={350} href="https://www.instagram.com/anonbot.wl/" title="Anonbot WL" desc="An Instagram bot for students at my school to submit confessions and announce anonymously" />
-              <Project width={350} href="http://thewritersblock.tech" title="The Writer's Block" desc="A decentralized writing platform that allows users to easily reward their favorite authors with Ethereum. Made at Hack Chicago 2018" />
+              <Project width={350} href="https://hackclubplaylist.glitch.me" title="Hack Club Playlist" desc="A fun interface for attendess of my school's Hack Club to songs to a collaborative playlist" />
               <ProjectFinish width={350} href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="A pretty title and block quote generator that gives a nice touch to Medium articles" />
             </Box>
 
