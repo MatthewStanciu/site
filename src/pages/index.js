@@ -57,7 +57,7 @@ export default () => (
                 <SmallerHello>Lover of words and software.</SmallerHello>
               </FadeIn>
               <Fade>
-                <Paragraph>My name is Matthew Stanciu, and I'm a high school junior at the West Lafayette
+                <Paragraph>My name is Matthew Stanciu, and I'm a 16 year old high school junior at the West Lafayette
                   Junior/Senior High School in West Lafayette, Indiana.<br/><br/>
 
                   When I was 6 years old, my mom gave me an old laptop
