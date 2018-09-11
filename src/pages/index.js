@@ -14,7 +14,7 @@ export default () => (
     <FadeIn delay={500} transitionDuration={750}>
       <Wrapper>
         <Helmet
-            title='Matthew Stanciu'
+            title='❤️ Matthew Stanciu'
             meta={[
             {
               name: 'description',
