@@ -103,7 +103,7 @@ export default () => (
         <CenteredBox>
           <Box width={[350, 500]}>
             <Subhead>My Positions</Subhead>
-            <Project width={[350, 500]} href="https://wlcat.club" title="CAT Club President" desc="CAT Club is West Lafayette Jr/Sr High School's Hack Club. Students get together in hackathon-like meetings and learn to code by making amazing projects." />
+            <Project width={[350, 500]} href="https://wlcat.club" title="WL Hack Club President" desc="WL Hack Club (formerly CAT Club) is West Lafayette Jr/Sr High School's Hack Club. Students get together in hackathon-like meetings and learn to code by making amazing projects." />
             <Project width={[350, 500]} href="http://sideb.media" title="Side B President" desc="Side B is a new club and student publication at my high school which aims to give every student a voice and become a better writer through a strong local community and the freedom to write whatever they want."/>
             <Project width={[350, 500]} href="https://codeday.org/indianapolis" title="CodeDay Indianapolis Regional Manager" desc="CodeDay is a fun, nationwide hackathon aimed toward beginners that strengthens local communities and gets students interested in coding. I am the regional manager for Indianapolis." />
             <Project width={[350, 500]} href="#" title="Hack Lafayette Organizer" desc="Hack Lafayette is an upcoming hackathon aiming to strengthen the local coding community among the amazingly bright students in Lafayette, Indiana." />
