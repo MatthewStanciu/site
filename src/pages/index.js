@@ -98,7 +98,7 @@ export default () => (
           </CenteredHeaderBlock>
         </CenteredBox>
       </SmallerWrapper>
-    <Fade bottom>
+    <Fade>
       <SmallerWrapper>
         <CenteredBox>
           <Box width={[350, 500]}>
