@@ -89,8 +89,8 @@ export default () => (
                   After Extrillius, I went on to learn as much as I could about many interesting topics, including blockchain,
                   web development (which I had been wanting to get into for a very long time), and a little bit of machine learning.
                   I have now combined my two passions by running a <Link target="_" href="https://hackclub.com" color="red">Hack Club</Link> at my school, as well as a new school
-                  publication, <Link target="_" href="http://sideb.media" color="#CA4A3B">Side B</Link>.
-                  I'm passionate about spreading computer science to everyone and facilitating social change through community organzing. <br/><br/>
+                  publication, <Link target="_" href="http://sideb.media" color="#CA4A3B">Side B</Link>. I'm passionate about spreading computer science to everyone and
+                  facilitating social change through organizing community projects and events like hackathons. <br/><br/>
 
                   I love my life and what I do, and I hope I can do great things in the future.</Paragraph>
               </Fade>
