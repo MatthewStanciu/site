@@ -107,7 +107,8 @@ export default () => (
             <Project width={[350, 500]} href="http://sideb.media" title="Side B President" desc="Side B is a new club and student publication at my high school which aims to give every student a voice and become a better writer through a strong local community and the freedom to write whatever they want."/>
             <Project width={[350, 500]} href="https://codeday.org/indy" title="CodeDay Indy Regional Manager" desc="CodeDay is a fun, nationwide hackathon aimed toward beginners that gets students from all different backgrounds interested in coding. I'm in charge of putting CodeDay Indy together." />
             <Project width={[350, 500]} href="#" title="LafayetteHacks Organizer" desc="LafayetteHacks is an upcoming hackathon aiming to strengthen the local coding community among the amazingly bright students in Lafayette, Indiana." />
-            <ProjectFinish width={[350, 500]} href="https://altheamesh.com" title="AltheaMesh West Lafayette Ambassador" desc="Althea aims to give local communities the power to provide internet to themselves through a cryptocurrency-powered mesh network. I am in charge of deploying an Althea network in West Lafayette." />
+            <Project width={[350, 500]} href="https://altheamesh.com" title="AltheaMesh West Lafayette Ambassador" desc="Althea aims to give local communities the power to provide internet to themselves through a cryptocurrency-powered mesh network. I am in charge of deploying an Althea network in West Lafayette." />
+            <ProjectFinish width={[350, 500]} href="tedxwlhs.vision" title="TEDxWestLafayetteHS Organizer" desc="Two years ago, TEDxWestLafayetteHS was organized here by a few passionate students. This March, I'm helping bring it back." />
           </Box>
         </CenteredBox>
       </SmallerWrapper>
