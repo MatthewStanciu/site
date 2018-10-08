@@ -78,7 +78,7 @@ export default () => (
                   So, when I was almost 12, in December 2013, I started
                   my first Minecraft server called MCFun Central and began learning how to make Minecraft server plugins. MCFun
                   Central was all about having fun, but my ultimate goal was to create a personalized environment for every
-                  player so that they always felt at home. It sounds silly, but running my Minecraft server was
+                  player so that they always felt at home. It sounds silly, but running my Minecraft server and making ny own plugins was
                   the first time I ever felt like I could make a real difference with code.<br/><br/>
 
                   MCFun Central turned into <Link target="_" href="https://extrillius.wordpress.com/" color="#afaeae">The Extrillius Network</Link> in January 2015,
