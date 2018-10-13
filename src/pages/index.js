@@ -27,7 +27,7 @@ export default () => (
           ]}
         />
         <HeaderBlock>
-            <Hello>Hi, I'm Matthew.</Hello>
+            <Hello>Hi, I’m Matthew.</Hello>
             <Flex ml={-10}>
               <SocialMedia href="https://github.com/MatthewStanciu" icon="github" />
               <Medium href="https://medium.com/@MatthewStanciu"/>
@@ -41,7 +41,7 @@ export default () => (
             <Box width={350}>
               <Subhead>My Recent Projects</Subhead>
               <Project width={350} href="https://www.instagram.com/anonbot.wl/" title="Anonbot WL" desc="An Instagram bot for students at my school to submit confessions and announce anonymously" />
-              <Project width={350} href="https://hackclubplaylist.glitch.me" title="Hack Club Playlist" desc="A fun interface for attendess of my school's Hack Club to songs to a collaborative playlist" />
+              <Project width={350} href="https://hackclubplaylist.glitch.me" title="Hack Club Playlist" desc="A fun interface for attendess of my school’s Hack Club to songs to a collaborative playlist" />
               <ProjectFinish width={350} href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="A pretty title and block quote generator that gives a nice touch to Medium articles" />
             </Box>
           </Left>
@@ -57,7 +57,7 @@ export default () => (
                 <SmallerHello>Lover of words and software.</SmallerHello>
               </FadeIn>
               <Fade>
-                <Paragraph>My name is Matthew Stanciu, and I'm a 16 year old high school junior at the West Lafayette
+                <Paragraph>My name is Matthew Stanciu, and I’m a 16 year old high school junior at the West Lafayette
                   Junior/Senior High School in West Lafayette, Indiana.<br/><br/>
 
                   When I was 6 years old, my mom gave me an old laptop
@@ -82,14 +82,14 @@ export default () => (
                   the first time I ever felt like I could make a real difference with code.<br/><br/>
 
                   MCFun Central turned into <Link target="_" href="https://extrillius.wordpress.com/" color="#afaeae">The Extrillius Network</Link> in January 2015,
-                  a project that really took my original vision to the sky's limit with a more dedicated staff team and ambitious goals of making almost all custom plugins.
+                  a project that really took my original vision to the sky’s limit with a more dedicated staff team and ambitious goals of making almost all custom plugins.
                   I kept Extrillius going for two years before shutting it down, and in that time, I learned so much more about
                   programming, project management, and effective communication. <br/><br/>
 
                   After Extrillius, I went on to learn as much as I could about many interesting topics, including blockchain,
                   web development (which I had been wanting to get into for a very long time), and a little bit of machine learning.
                   I have now combined my two passions by running a <Link target="_" href="https://hackclub.com" color="red">Hack Club</Link> at my school, as well as a new school
-                  publication, <Link target="_" href="http://sideb.media" color="#CA4A3B">Side B</Link>. I'm passionate about spreading computer science to everyone and
+                  publication, <Link target="_" href="http://sideb.media" color="#CA4A3B">Side B</Link>. I’m passionate about spreading computer science to everyone and
                   facilitating social change through organizing community projects and events like hackathons. <br/><br/>
 
                   I love my life and what I do, and I hope I can do great things in the future.</Paragraph>
