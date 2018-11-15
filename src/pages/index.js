@@ -60,7 +60,7 @@ export default () => (
                 <Paragraph>My name is Matthew Stanciu, and I’m a 16 year old high school junior at the West Lafayette
                   Junior/Senior High School in West Lafayette, Indiana.<br/><br/>
 
-                  When I was 6 years old, my mom gave me an old laptop
+                  I have been fascinated with computers for as long as I can remember. When I was 6 years old, my mom gave me an old laptop
                   from her workplace that nobody used anymore. Instead of getting rid of it, it became my own computer,
                   giving me complete admin privileges. I quickly filled it with viruses, but
                   I continued to use it until the screen burned out. When it finally did, my mom found two more old laptops
