@@ -61,7 +61,7 @@ export default () => (
                   Junior/Senior High School in West Lafayette, Indiana.<br/><br/>
 
                   I have been fascinated with computers for as long as I can remember. When I was 6 years old, my mom gave me an old laptop
-                  from her workplace that nobody used anymore. Instead of getting rid of it, it became my own computer,
+                  from her workplace that nobody used anymore. It became my own computer,
                   giving me complete admin privileges. I quickly filled it with viruses, but
                   I continued to use it until the screen burned out. When it finally did, my mom found two more old laptops
                   and gave them to me. I eventually broke those as well. This was such an important time in
