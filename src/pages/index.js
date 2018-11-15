@@ -24,6 +24,10 @@ export default () => (
               name: 'keywords',
               content: 'reactjs, javascript, front-end, web development',
             },
+            {
+              name: 'google-site-verification',
+              content: 'ztCBBS9kFFG-eCDyXphFrkSAJj2C5fvSdp5WAyswWY8'
+            }
           ]}
         />
         <HeaderBlock>
