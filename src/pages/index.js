@@ -110,7 +110,7 @@ export default () => (
             <Project width={[350, 500]} href="https://hackpenn.com" title="HackPennsylvania Community and Marketing" desc="HackPennsylvania is an upcoming high school hackathon that spans across Pennsylvania and connects students who previously have not had an opportunity like this. I'm working on marketing and outreach for the event." />
             <Project width={[350, 500]} href="https://grants.stutech.org" title="StuTech COO" desc="StuTech is a nonprofit that works with industry professionals to give grants to students who are working on projects that move STEM forward. I'm working as the COO and helping it reach as many students as possible!" />
             <Project width={[350,500]} href="https://tinydocs.co" title="TinyDocs Freelance Developer" desc="TinyDocs creates fun videos for kids undergoing medical procedures to help them understand and feel better. I'm working on a portal for hospitals to access their videos." />
-            <ProjectFinish width={[350, 500]} href="http://tedxwlhs.vision" title="TEDxWestLafayetteHS Organizer" desc="Two years ago, TEDxWestLafayetteHS was organized here by a few passionate students. This March, I'm working to bring it back. April 13th, 2019." />
+            <ProjectFinish width={[350, 500]} href="http://tedxwlhs.vision" title="TEDxWestLafayetteHS Organizer" desc="Two years ago, TEDxWestLafayetteHS was organized here by a few passionate students. On April 13th, 2019, I'm working to bring it back." />
           </Box>
         </CenteredBox>
       </SmallerWrapper>
