@@ -2,21 +2,17 @@ import React from 'react'
 import Fade from 'react-reveal/Fade'
 import '../style.css'
 import { mx } from '../screensizes'
-import { Heading, Flex, Column, Box, Container, Link, Text } from 'rebass'
+import { Heading, Flex, Column, Box, Link } from 'rebass'
 import {
   Wrapper,
   SmallerWrapper,
-  Icon,
   Medium,
   SocialMedia,
   Paragraph,
   Project,
-  ProjectTitle,
-  ProjectDesc,
   ProjectFinish,
   Footer
 } from '../components/components'
-import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import FadeIn from 'react-fade-in'
 

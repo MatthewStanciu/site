@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Flex, Box, Link, Image, Text } from 'rebass'
+import { Flex, Box, Link, Image, Text } from 'rebass'
 import { mx } from '../screensizes'
 import { replace } from 'lodash'
 
