@@ -194,8 +194,8 @@ export default () => (
             <Project
               width={[350, 500]}
               href="https://hackpenn.com"
-              title="HackPennsylvania Community and Marketing"
-              desc="HackPennsylvania is an upcoming high school hackathon that spans across Pennsylvania and connects students who previously have not had an opportunity like this. I'm working on marketing and outreach for the event."
+              title="Hack Pennsylvania Community and Marketing"
+              desc="HacknPennsylvania is an upcoming high school hackathon for students across the Northeast. I'm working on marketing and outreach for the event."
             />
             <Project
               width={[350, 500]}
