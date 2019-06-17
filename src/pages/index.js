@@ -168,6 +168,14 @@ export default () => (
           <Box width={[350, 500]}>
             <Subhead>My Positions</Subhead>
             <Project
+              width={[350,500]}
+              href="https://windyhacks.com"
+              title="Windy City Hacks Lead Organizer"
+              desc="For the last few months, I've been organizing Windy City Hacks, Chicago's high school
+                hackathon, happening on June 22-23. $14k raised, 225 attendees, awesome mentors, judges, and prizes,
+                so much fun."
+            />
+            <Project
               width={[350, 500]}
               href="https://wl.hackclub.com"
               title="WL Hack Club President"
@@ -187,33 +195,15 @@ export default () => (
             />
             <Project
               width={[350, 500]}
-              href="#"
-              title="Star City Hacks Organizer"
-              desc="Star City Hacks is an upcoming high school hackathon aiming to strengthen the local coding community among the amazingly bright students in Lafayette, Indiana. March 23rd, 2019"
-            />
-            <Project
-              width={[350, 500]}
               href="https://hackpenn.com"
               title="Hack Pennsylvania Community and Marketing"
               desc="Hack Pennsylvania is an upcoming high school hackathon for students across the Northeast. I'm working on marketing and outreach for the event."
             />
-            <Project
-              width={[350, 500]}
-              href="https://grants.stutech.org"
-              title="StuTech COO"
-              desc="StuTech is a nonprofit that works with industry professionals to give grants to students who are working on projects that move STEM forward. I'm working as the COO and helping it reach as many students as possible!"
-            />
-            <Project
+            <ProjectFinish
               width={[350, 500]}
               href="https://tinydocs.co"
               title="TinyDocs Freelance Developer"
               desc="TinyDocs creates fun videos for kids undergoing medical procedures to help them understand and feel better. I'm working on a portal for hospitals to access their videos."
-            />
-            <ProjectFinish
-              width={[350, 500]}
-              href="http://tedxwlhs.vision"
-              title="TEDxWestLafayetteHS Organizer"
-              desc="Two years ago, TEDxWestLafayetteHS was organized here by a few passionate students. On April 13th, 2019, I'm working to bring it back."
             />
           </Box>
         </CenteredBox>
