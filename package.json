@@ -14,7 +14,7 @@
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-react-next": "^1.0.11",
     "gatsby-plugin-styled-components": "^2.0.11",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "react-fade-in": "^0.1.6",
     "react-helmet": "^5.2.0",
     "react-reveal": "^1.2.2",
